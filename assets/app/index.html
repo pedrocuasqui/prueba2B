@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>aplicacion pruebas</title>
+    <link rel="stylesheet" href="librerias/css/animate.css">
+    <link rel="stylesheet" href="librerias/css/bootstrap.min.css">
+</head>
+
+<body class="container" ng-app="app">
+    <!--    MENU-->
+    <div class="row">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Cuasqui Pedro</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#/home">Home</a></li>
+                        <li><a href="#/vista1">vista 1</a></li>
+                        <li><a href="#/vista2">vista 2</a></li>
+                        <li><a href="#">vista 3</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--    CUERPO-->
+    <div class="row">
+        <div ui-view>
+            
+        </div>
+    </div>
+
+
+    <h1 class="animated shake "> pagina de prueba</h1>
+
+    <!--    angular-->
+    <script src="librerias/js/angular.js"></script>
+    <script src="https://npmcdn.com/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <link rel="stylesheet" href="https://npmcdn.com/angular-toastr/dist/angular-toastr.css" />
+    <script src="librerias/js/angular-ui-router.js"></script>
+    <script src="librerias/js/angular-animate.js"></script>
+    <script src="librerias/js/angular-resource.js"></script>
+    <!--    aplicacion-->
+    <script src="app.js"></script>
+    <!--    dependencias-->
+    <script src="librerias/js/jquery-1.12.0.min.js"></script>
+    <script src="librerias/js/bootstrap.min.js"></script>
+    <!--    controladores -->
+    <script src="controladores/vista2Controller.js"></script>
+    <script src="controladores/vista1Controller.js"></script>
+
+
+</body>
+
+</html>
