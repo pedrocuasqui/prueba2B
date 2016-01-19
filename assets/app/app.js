@@ -26,7 +26,7 @@ prueba.config(function ($stateProvider, $urlRouterProvider) {
             url: "/home",
             templateUrl: "rutas/vista1.html"
         });
-    f;akdf;alkdsjf;alksdj;a
+    
 
 
 
