@@ -22,6 +22,9 @@ prueba.config(function ($stateProvider, $urlRouterProvider) {
             url: "/vista1",
             templateUrl: "rutas/vista1.html",
             controller: 'vista1Controller'
+        }).state('home', {
+            url: "/home",
+            templateUrl: "rutas/vista1.html"
         });
 
 
